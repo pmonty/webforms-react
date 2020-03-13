@@ -2,6 +2,7 @@
 Imports System.Linq
 Imports System.Web
 Imports System.Web.Optimization
+Imports System.Web.Optimization.React
 
 Public Class BundleConfig
     ' For more information on Bundling, visit https://go.microsoft.com/fwlink/?LinkID=303951
@@ -27,5 +28,10 @@ Public Class BundleConfig
         ' ready for production, use the build tool at https://modernizr.com to pick only the tests you need
         bundles.Add(New ScriptBundle("~/bundles/modernizr").Include(
                         "~/Scripts/modernizr-*"))
+
+        'bundles.Add(New BabelBundle("~/bundles/main").Include(
+        '    "~/Clientapp/Route1/component.tsx",
+        '    "~/Clientapp/Route1/index.tsx",
+        '    "~/Clientapp/Route2/index.tsx"))
     End Sub
 End Class

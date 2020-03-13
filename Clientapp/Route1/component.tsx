@@ -1,5 +1,6 @@
-﻿export class ComponentTest extends React.Component {
+﻿
+export class ComponentTest extends React.Component<any> {
     render: any = () => {
-       return ( <p>test component</p>)
+       return ( <p>test component</p>);
     }
 }

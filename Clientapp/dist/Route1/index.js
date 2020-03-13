@@ -17,15 +17,14 @@ var component_1 = require("./component");
 var Route1 = (function (_super) {
     __extends(Route1, _super);
     function Route1() {
-        var _this = _super !== null && _super.apply(this, arguments) || this;
-        _this.render = function () {
-            return (React.createElement("div", null,
-                "Hello world from route 1=  ",
-                _this.props.test,
-                React.createElement(component_1.ComponentTest, null)));
-        };
-        return _this;
+        return _super !== null && _super.apply(this, arguments) || this;
     }
+    Route1.prototype.render = function () {
+        return (React.createElement("div", null,
+            "Hello world from route 1=  ",
+            this.props.test,
+            React.createElement(component_1.ComponentTest, null)));
+    };
     return Route1;
 }(React.Component));
 exports.Route1 = Route1;

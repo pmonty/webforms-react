@@ -12,9 +12,11 @@ Public Module ReactConfig
         ReactSiteConfiguration.
             Configuration.
             SetReuseJavaScriptEngines(False).
-            AddScript("~/ClientApp/Route1/index.tsx").
-            AddScript("~/ClientApp/Route2/index.tsx").
-            AddScript("~/ClientApp/Route1/component.tsx")
+            AddScript("~/Clientapp/Route1/component.tsx").
+            AddScript("~/Clientapp/Route1/index.tsx").
+            AddScript("~/Clientaapp/Route2/index.tsx").
+            AddScript("~/Clientapp/index.js")
+
 #Else
         ReactSiteConfiguration.
                 Configuration.

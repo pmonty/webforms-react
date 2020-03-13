@@ -5,5 +5,5 @@
     <p>Your app description page.</p>
     <p>Use this area to provide additional information.</p>
     <asp:Literal ID="route1" runat="server"></asp:Literal>
-    <script src="~/Clientapp/dist/routes.bundle.js"></script>
+    <script type="text/jsx" src="~/Clientapp/dist/routes.bundle.js"></script>
 </asp:Content>
